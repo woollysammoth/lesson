@@ -7,6 +7,11 @@ body{
 	line-height:1em;
 }
 
+a{
+	text-decoration: none;
+	color:#000;
+}
+
 .layout {
 	display: grid;
     grid-template-areas:
@@ -29,12 +34,10 @@ body{
 	list-style:none;
 }
 
-.layout > nav a{
+.layout > nav{
 	padding: 1em;
 	border-bottom:1px #ddd solid;
 	display:block;
-	text-decoration: none;
-	color:#000;
 }
 
 .layout > nav a:hover{
