@@ -77,16 +77,13 @@ main{
 
 @media (max-width: 768px) {
   	.layout {
-    grid-template-areas:
-      "header"
-      "nav"
-      "content";
+    	grid-template-areas:
+      		"header"
+      		"nav"
+      		"content";
 
-    grid-template-columns: 1fr;
-    grid-template-rows:
-      auto /* Header */
-      minmax(75px, auto) /* Nav */
-      1fr; /* Content */
+    	grid-template-columns: 1fr;
+    	grid-template-rows: auto minmax(75px, auto) 1fr;
  	}
 
   	header{
@@ -109,5 +106,6 @@ main{
 
 	.layout > nav li{
         display: flex;
+		flex-grow: 1;
     }
 }
