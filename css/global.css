@@ -92,4 +92,11 @@ main{
 		text-align: left
 	}
 
+	header nav a {
+    	padding: 1em 0em 1em 1em;
+    }
+
+	.layout > nav li{
+        display: inline-block;
+    }
 }
