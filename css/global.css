@@ -19,6 +19,8 @@ body{
 
 .layout > nav{
 	grid-area: nav;
+    background: #eee;
+    border-right:1px #ddd solid;
 }
 
 .layout > nav ul{
@@ -29,17 +31,19 @@ body{
 
 .layout > nav a{
 	padding: 1em;
-	border-bottom:1px #e2e2e2 solid;
+	border-bottom:1px #ddd solid;
 	display:block;
+	text-decoration: none;
+	color:#000;
 }
 
 .layout > nav a:hover{
-	background:rgba(0,0,0,.08);
+	background:rgba(0,0,0,.02);
 }
 
 header{
 	background:#fff;
-	border-bottom:1px #e2e2e2 solid;
+	border-bottom:1px #ddd solid;
 	grid-area: header;
 	display: grid;
     grid-template-columns: 200px 1fr; /* First column (logo) takes up 200px, 1fr allows the menu to take the remaining width */
