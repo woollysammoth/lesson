@@ -36,7 +36,8 @@ a{
 .layout > nav a{
 	padding: 1em;
 	border-bottom:1px #ddd solid;
-	display:block;
+	display: block;
+    width: 100%;
 }
 
 .layout > nav a:hover{
@@ -96,7 +97,13 @@ main{
     	padding: 1em 0em 1em 1em;
     }
 
+    .layout > nav ul{
+    	display: flex;
+    	justify-content: space-between;
+    	flex-grow: 1;
+    }
+
 	.layout > nav li{
-        display: inline-block;
+        display: flex;
     }
 }
