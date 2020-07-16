@@ -19,12 +19,22 @@ body{
 
 .layout > nav{
 	grid-area: nav;
-	padding:1em;
 }
 
 .layout > nav ul{
 	padding:0;
 	margin:0;
+	list-style:none;
+}
+
+.layout > nav a{
+	padding: 1em;
+	border-bottom:1px #e2e2e2 solid;
+	display:block;
+}
+
+.layout > nav a:hover{
+	background:rgba(0,0,0,.08);
 }
 
 header{
