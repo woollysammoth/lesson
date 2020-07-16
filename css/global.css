@@ -19,6 +19,12 @@ body{
 
 .layout > nav{
 	grid-area: nav;
+	padding:1em;
+}
+
+.layout > nav ul{
+	padding:0;
+	margin:0;
 }
 
 header{
@@ -39,10 +45,11 @@ header .logo{
 }
 
 header nav a{
-	padding: 1em;
+	padding: 1em 1em 1em 0em; /* These values go clockwise from top */
     display: inline-block;
 }
 
 main{
 	grid-area: content;
+	padding:1em;
 }
