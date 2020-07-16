@@ -108,4 +108,8 @@ main{
         display: flex;
 		flex-grow: 1;
     }
+
+    .layout > nav{
+    	border-right:none;
+    }
 }
